@@ -6,7 +6,7 @@
 /*   By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/06 21:09:22 by hkono             #+#    #+#             */
-/*   Updated: 2021/04/19 18:38:27 by hkono            ###   ########.fr       */
+/*   Updated: 2021/11/23 11:52:49 by hkono            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define FT_PRINTF_H
 # include <stdarg.h>
 # include <limits.h>
-# include "../libft/libft.h"
+# include "libft.h"
 
 typedef struct s_flag
 {

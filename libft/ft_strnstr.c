@@ -6,7 +6,7 @@
 /*   By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/02 13:31:15 by hkono             #+#    #+#             */
-/*   Updated: 2020/11/23 22:08:15 by hkono            ###   ########.fr       */
+/*   Updated: 2021/11/22 21:36:42 by hkono            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strnstr(const char *h, const char *n, size_t len)
 	while (h_i < len && h[h_i] != '\0')
 	{
 		n_i = 0;
-		while (h[h_i + n_i] == n[n_i] && h_i + n_i < len &&\
+		while (h[h_i + n_i] == n[n_i] && h_i + n_i < len && \
 				h[h_i + n_i] && n[n_i])
 		{
 			n_i++;

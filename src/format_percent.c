@@ -6,11 +6,11 @@
 /*   By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/17 15:12:37 by hkono             #+#    #+#             */
-/*   Updated: 2021/04/17 20:16:12 by hkono            ###   ########.fr       */
+/*   Updated: 2021/11/23 11:51:54 by hkono            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 void	print_percent(t_flag fmt_admin, int *d)
 {

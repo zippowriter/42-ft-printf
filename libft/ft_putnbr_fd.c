@@ -6,11 +6,11 @@
 /*   By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/14 14:52:22 by hkono             #+#    #+#             */
-/*   Updated: 2020/11/23 22:00:34 by hkono            ###   ########.fr       */
+/*   Updated: 2021/11/23 11:44:31 by hkono            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {

@@ -6,11 +6,11 @@
 /*   By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/12 21:28:50 by hkono             #+#    #+#             */
-/*   Updated: 2021/04/19 22:15:41 by hkono            ###   ########.fr       */
+/*   Updated: 2021/11/23 11:31:41 by hkono            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 static void	prec_zero(t_flag fmt_admin, int *d)
 {

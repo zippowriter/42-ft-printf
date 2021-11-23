@@ -6,11 +6,11 @@
 /*   By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/12 20:58:51 by hkono             #+#    #+#             */
-/*   Updated: 2021/04/19 18:03:59 by hkono            ###   ########.fr       */
+/*   Updated: 2021/11/23 11:51:44 by hkono            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 void	print_string(t_flag fmt_admin, va_list *ap, int *d)
 {

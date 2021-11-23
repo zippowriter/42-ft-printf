@@ -6,11 +6,11 @@
 /*   By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/10 10:27:26 by hkono             #+#    #+#             */
-/*   Updated: 2021/04/19 17:06:43 by hkono            ###   ########.fr       */
+/*   Updated: 2021/11/23 11:51:33 by hkono            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 void	print_space_width(t_flag fmt_admin, int count, int *d, int del)
 {

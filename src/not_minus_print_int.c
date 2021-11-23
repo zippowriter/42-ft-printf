@@ -6,11 +6,11 @@
 /*   By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/16 16:57:31 by hkono             #+#    #+#             */
-/*   Updated: 2021/04/19 18:41:17 by hkono            ###   ########.fr       */
+/*   Updated: 2021/11/23 11:31:50 by hkono            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 static void	ws_negative_n(t_flag fmt_admin, const char *str, int len, int *d)
 {

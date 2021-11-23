@@ -6,11 +6,11 @@
 /*   By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/17 08:16:26 by hkono             #+#    #+#             */
-/*   Updated: 2021/04/19 19:09:11 by hkono            ###   ########.fr       */
+/*   Updated: 2021/11/23 11:51:23 by hkono            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 static int	get_digits(unsigned int ui)
 {

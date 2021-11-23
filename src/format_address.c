@@ -6,11 +6,11 @@
 /*   By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/12 20:42:43 by hkono             #+#    #+#             */
-/*   Updated: 2021/04/19 22:31:38 by hkono            ###   ########.fr       */
+/*   Updated: 2021/11/23 13:03:08 by hkono            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 static void	no_minus_print(t_flag fmt_admin, char *ad, int len, int *d)
 {
@@ -111,4 +111,5 @@ void	print_address(t_flag fmt_admin, va_list *ap, int *d)
 		*d += 2;
 		no_minus_print(fmt_admin, ad, len, d);
 	}
+	free(ad);
 }

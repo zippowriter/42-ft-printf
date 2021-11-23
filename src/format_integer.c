@@ -6,11 +6,11 @@
 /*   By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/13 19:50:57 by hkono             #+#    #+#             */
-/*   Updated: 2021/04/19 18:52:12 by hkono            ###   ########.fr       */
+/*   Updated: 2021/11/23 11:51:58 by hkono            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 static void	disc_flags(t_flag fmt_admin, const char *str, int len, int *d)
 {

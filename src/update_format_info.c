@@ -6,11 +6,11 @@
 /*   By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/09 09:58:52 by hkono             #+#    #+#             */
-/*   Updated: 2021/04/19 14:57:25 by hkono            ###   ########.fr       */
+/*   Updated: 2021/11/23 11:29:05 by hkono            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/ft_printf.h"
+#include "ft_printf.h"
 
 void	write_width_info(t_flag *fmt_admin, const char **fmt, va_list *ap)
 {
