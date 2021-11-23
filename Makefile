@@ -6,7 +6,7 @@
 #    By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/04/05 19:42:50 by hkono             #+#    #+#              #
-#    Updated: 2021/11/23 12:39:04 by hkono            ###   ########.fr        #
+#    Updated: 2021/11/23 16:06:28 by hkono            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -54,7 +54,7 @@ clean:
 fclean:
 	$(MAKE) fclean -C libft
 	$(MAKE) fclean -C src
-	rm -f $(NAME)
+	$(RM) $(NAME)
 
 re: fclean all
 

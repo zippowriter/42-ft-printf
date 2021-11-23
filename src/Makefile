@@ -6,7 +6,7 @@
 #    By: hkono <hkono@student.42tokyo.jp>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/23 10:54:52 by hkono             #+#    #+#              #
-#    Updated: 2021/11/23 12:17:55 by hkono            ###   ########.fr        #
+#    Updated: 2021/11/23 16:07:53 by hkono            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,7 +36,7 @@ INCLUDES = -I../includes
 LIBS = -L../libft
 
 $(NAME): $(OBJS)
-	ar -rcs $(NAME) $^
+	$(AR) -rcs $(NAME) $^
 
 .SUFFIXES: .c .o
 
@@ -46,7 +46,7 @@ $(NAME): $(OBJS)
 all: $(NAME)
 
 clean:
-	rm -f $(OBJS)
+	$(RM) $(OBJS)
 
 fclean: clean
-	rm -f $(NAME)
+	$(RM) $(NAME)
